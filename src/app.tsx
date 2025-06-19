@@ -21,7 +21,7 @@ const App = () => {
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<LoginPage />} /> {/* Default to LoginPage */}
+            <Route path="/" element={<RegistrationPage />} /> {/* Default to RegistrationPage */}
             <Route path="/login" element={<LoginPage />} />
             <Route path="/forgot-password" element={<ForgotPasswordPage />} />
             <Route path="/register" element={<RegistrationPage />} />
